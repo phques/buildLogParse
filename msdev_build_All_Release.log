@@ -1,0 +1,636 @@
+ 
+************************************************************************** 
+ 
+Compiling services... 
+ 
+**************************************************** 
+Compiling projects... 
+ 
+ 
+************************************************************************** 
+Compiling "PragmaGeo"... 
+ 
+ 
+"C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\.\..\..\..\..\src2\exe\PragmaGeo\PragmaGeo.sln" /Build Release /Project "PragmaGeo" /Out "C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\..\msdev_build_All_Release.log" 
+ 
+1>------ Build started: Project: srv.interface, Configuration: Release Any CPU ------
+2>------ Build started: Project: om.interface, Configuration: Release Any CPU ------
+1>  srv.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\srv.interface.dll
+2>  om.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\om.interface.dll
+3>------ Build started: Project: ui.interface, Configuration: Release Any CPU ------
+4>------ Build started: Project: Mapping, Configuration: Release x86 ------
+3>  ui.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\ui.interface.dll
+4>  Mapping -> C:\Source\ssPragmaSmart\PCAD\WFMS\Services\Srv\Mapping\bin\x86\Release\Cgi.Service.Mapping.dll
+4>          1 file(s) copied.
+5>------ Build started: Project: appl.interface, Configuration: Release Any CPU ------
+5>  appl.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\appl.interface.dll
+6>------ Build started: Project: Cgi.Ssp.Cad.MiddlewareUtil, Configuration: Release x86 ------
+7>------ Build started: Project: pline.util, Configuration: Release Any CPU ------
+6>  Cgi.Ssp.Cad.MiddlewareUtil -> C:\Source\ssPragmaSmart\PCAD\WFMS\CAD\Libraries\Cgi.Ssp.Cad.MiddlewareUtil\bin\x86\Release\Cgi.Ssp.Cad.MiddlewareUtil.dll
+6>          1 file(s) copied.
+7>  pline.util -> C:\Source\ssPragmaSmart\PLINE\bin\Release\pline.util.dll
+8>------ Build started: Project: ViewerCore, Configuration: Release Any CPU ------
+9>------ Build started: Project: Coordinates (Coordinates\Coordinates), Configuration: Release Any CPU ------
+9>  Coordinates -> C:\Source\ssPragmaSmart\PLINE\bin\Release\Coordinates.dll
+8>  ViewerCore -> C:\Source\ssPragmaSmart\PLINE\src2\lib\ViewerCore\bin\Release\ViewerCore.dll
+10>------ Build started: Project: Cache, Configuration: Release Any CPU ------
+10>  Cache -> C:\Source\ssPragmaSmart\PLINE\bin\Release\Cache.dll
+11>------ Build started: Project: Colors, Configuration: Release Any CPU ------
+11>  Colors -> C:\Source\ssPragmaSmart\PLINE\bin\Release\Colors.dll
+12>------ Build started: Project: WindowInterface, Configuration: Release Any CPU ------
+12>  WindowInterface -> C:\Source\ssPragmaSmart\PLINE\bin\Release\WindowInterface.dll
+13>------ Build started: Project: GDIplusRender, Configuration: Release Any CPU ------
+14>------ Build started: Project: ZoomLevelManagement, Configuration: Release Any CPU ------
+13>  GDIplusRender -> C:\Source\ssPragmaSmart\PLINE\bin\Release\GDIplusRender.dll
+14>  ZoomLevelManagement -> C:\Source\ssPragmaSmart\PLINE\bin\Release\ZoomLevelManagement.dll
+15>------ Build started: Project: FormUI, Configuration: Release Any CPU ------
+15>  FormUI -> C:\Source\ssPragmaSmart\PLINE\bin\release\FormUI.dll
+16>------ Build started: Project: FileManager, Configuration: Release Any CPU ------
+17>------ Build started: Project: GeoMapAPI, Configuration: Release Any CPU ------
+17>  GeoMapAPI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\GeoMapAPI.dll
+18>------ Build started: Project: FilterManagement, Configuration: Release Any CPU ------
+18>  FilterManagement -> C:\Source\ssPragmaSmart\PLINE\bin\Release\FilterManagement.dll
+19>------ Build started: Project: MapWrapper, Configuration: Release Any CPU ------
+16>  Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.17929
+16>  Copyright (c) Microsoft Corporation.  All rights reserved.
+16>  
+16>  No assemblies found matching: FileManager
+16>  Number of assemblies uninstalled = 0 
+16>  Number of failures = 0
+16>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PCAD\WFMS\CAD\Libraries\Cgi.Ssp.Cad.MiddlewareUtil\bin\x86\Release\Cgi.Ssp.Cad.MiddlewareUtil.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+16>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "Cgi.Ssp.CgiLog.Mng, Version=1.9.2.0, Culture=neutral, PublicKeyToken=ae4be1a8d31f99fa, processorArchitecture=x86", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+16>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "mdw.api.mng", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+16>  FileManager -> C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\FTServer.root\FTServer\FileManager\bin\Release\FileManager.dll
+16>          1 file(s) copied.
+19>  MapWrapper -> C:\Source\ssPragmaSmart\PLINE\bin\Release\MapWrapper.dll
+20>------ Build started: Project: BaseLocateUI, Configuration: Release Any CPU ------
+21>------ Build started: Project: GraphicalAlterations, Configuration: Release Any CPU ------
+21>  GraphicalAlterations -> C:\Source\ssPragmaSmart\PLINE\src2\lib\MapView\GraphicalAlterations\bin\Release\GraphicalAlterations.dll
+22>------ Build started: Project: AttachmentMonitorControl, Configuration: Release Any CPU ------
+20>  BaseLocateUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\BaseLocateUI.dll
+23>------ Build started: Project: CircuitUiCommon, Configuration: Release Any CPU ------
+23>  CircuitUiCommon -> C:\Source\ssPragmaSmart\PLINE\bin\Release\CircuitUiCommon.dll
+24>------ Build started: Project: CustomerUI, Configuration: Release Any CPU ------
+24>  CustomerUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\CustomerUI.dll
+25>------ Build started: Project: MapViewInterface, Configuration: Release Any CPU ------
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(10,17,10,37): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentObjectType'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(12,9,12,12): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentObjectType.Job'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(13,9,13,13): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentObjectType.Crew'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(14,9,14,13): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentObjectType.Mail'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(15,9,15,12): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentObjectType.SDM'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(16,9,16,15): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentObjectType.GpsLog'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(17,9,17,15): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentObjectType.Damage'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(20,18,20,35): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentRequest'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(22,20,22,22): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentRequest.Id'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(23,23,23,27): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentRequest.Text'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(24,37,24,41): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentRequest.Type'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(125,22,125,31): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentDetail.Thumbnail'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\IAttachmentMonitor.cs(10,22,10,40): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.IAttachmentMonitor'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\IAttachmentMonitor.cs(12,14,12,27): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.IAttachmentMonitor.ShowException(FileManager.Exceptions.FileTransferException)'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewerControl.cs(838,21,838,36): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentViewerControl.ShowAttachments(Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentRequest)'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewerViewModel.cs(68,30,68,32): warning CS0168: The variable 'ex' is declared but never used
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(281,28,281,39): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.IconTools.ExtractIcon(string, int, Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ShellIconSize)'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(314,25,314,43): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(350,26,350,35): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.LVM_FIRST'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(351,26,351,39): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.LVM_GETHEADER'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(353,26,353,35): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDM_FIRST'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(354,26,354,37): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDM_GETITEM'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(355,26,355,37): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDM_SETITEM'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(358,37,358,48): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.SendMessage(System.IntPtr, uint, System.IntPtr, System.IntPtr)'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(361,37,361,48): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.SendMessage(System.IntPtr, uint, System.IntPtr, ref Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM)'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(363,28,363,39): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.SetSortIcon(System.Windows.Forms.ListView, int, System.Windows.Forms.SortOrder)'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(317,23,317,29): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(319,25,319,29): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.mask'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(320,24,320,27): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.cxy'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(322,27,322,34): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.pszText'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(323,27,323,30): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.hbm'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(324,24,324,34): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.cchTextMax'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(325,27,325,30): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.fmt'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(326,27,326,33): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.lParam'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(328,24,328,30): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.iImage'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(329,24,329,30): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.iOrder'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(331,25,331,29): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.type'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(332,27,332,35): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.pvFilter'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(334,25,334,30): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.state'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(337,25,337,29): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.Mask'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(339,17,339,23): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.Mask.Format'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(343,25,343,31): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.Format'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(345,17,345,25): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.Format.SortDown'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(346,17,346,23): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.Format.SortUp'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\ObjectChooserForm.cs(13,26,13,43): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ObjectChooserForm'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\ObjectChooserForm.cs(15,16,15,33): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ObjectChooserForm.ObjectChooserForm()'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\ObjectChooserForm.cs(20,20,20,22): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ObjectChooserForm.Id'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\ObjectChooserForm.cs(21,37,21,51): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ObjectChooserForm.AttachmentType'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewerControl.cs(79,9,79,10): warning CS1587: XML comment is not placed on a valid language element
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewerControl.cs(850,9,850,10): warning CS1587: XML comment is not placed on a valid language element
+22>  AttachmentMonitorControl -> C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\bin\Release\AttachmentMonitorControl.dll
+22>  Running Code Analysis...
+22>MSBUILD : warning : CA1001 : Microsoft.Design : Implement IDisposable on 'AttachmentViewerViewModel' because it creates members of the following IDisposable types: 'COMFileManager'.
+22>MSBUILD : warning : CA1060 : Microsoft.Design : Because it is a P/Invoke method, 'IconTools.ExtractIconEx(string, int, IntPtr[], IntPtr[], uint)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.
+22>MSBUILD : warning : CA1401 : Microsoft.Interoperability : Change the accessibility of P/Invoke 'IconTools.ExtractIconEx(string, int, IntPtr[], IntPtr[], uint)' so that it is no longer visible from outside its assembly.
+22>MSBUILD : warning : CA2101 : Microsoft.Globalization : To reduce security risk, marshal parameter 'libName' as Unicode, by setting DllImport.CharSet to CharSet.Unicode, or by explicitly marshaling the parameter as UnmanagedType.LPWStr. If you need to marshal this string as ANSI or system-dependent, specify MarshalAs explicitly, and set BestFitMapping=false; for added security, also set ThrowOnUnmappableChar=true.
+22>MSBUILD : warning : CA1060 : Microsoft.Design : Because it is a P/Invoke method, 'IconTools.SHGetFileInfo(string, uint, ref IconTools.SHFILEINFO, uint, ShellIconSize)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.
+22>MSBUILD : warning : CA2101 : Microsoft.Globalization : To reduce security risk, marshal parameter 'pszPath' as Unicode, by setting DllImport.CharSet to CharSet.Unicode, or by explicitly marshaling the parameter as UnmanagedType.LPWStr. If you need to marshal this string as ANSI or system-dependent, specify MarshalAs explicitly, and set BestFitMapping=false; for added security, also set ThrowOnUnmappableChar=true.
+22>MSBUILD : warning : CA1060 : Microsoft.Design : Because it is a P/Invoke method, 'ListViewExtensions.SendMessage(IntPtr, uint, IntPtr, ref ListViewExtensions.HDITEM)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.
+22>MSBUILD : warning : CA1401 : Microsoft.Interoperability : Change the accessibility of P/Invoke 'ListViewExtensions.SendMessage(IntPtr, uint, IntPtr, ref ListViewExtensions.HDITEM)' so that it is no longer visible from outside its assembly.
+22>MSBUILD : warning : CA1060 : Microsoft.Design : Because it is a P/Invoke method, 'ListViewExtensions.SendMessage(IntPtr, uint, IntPtr, IntPtr)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.
+22>MSBUILD : warning : CA1401 : Microsoft.Interoperability : Change the accessibility of P/Invoke 'ListViewExtensions.SendMessage(IntPtr, uint, IntPtr, IntPtr)' so that it is no longer visible from outside its assembly.
+22>MSBUILD : warning : CA2111 : Microsoft.Security : Make 'ListViewExtensions.HDITEM.hbm' private.
+22>MSBUILD : warning : CA2111 : Microsoft.Security : Make 'ListViewExtensions.HDITEM.lParam' private.
+22>MSBUILD : warning : CA2111 : Microsoft.Security : Make 'ListViewExtensions.HDITEM.pvFilter' private.
+22>  Code Analysis Complete -- 0 error(s), 13 warning(s)
+22>          1 file(s) copied.
+22>          1 file(s) copied.
+22>          1 file(s) copied.
+25>  MapViewInterface -> C:\Source\ssPragmaSmart\PLINE\bin\Release\MapViewInterface.dll
+26>------ Build started: Project: LandmarkUI, Configuration: Release Any CPU ------
+27>------ Build started: Project: NoteUI, Configuration: Release Any CPU ------
+26>  LandmarkUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\LandmarkUI.dll
+27>  NoteUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\NoteUI.dll
+28>------ Build started: Project: PowerAnalysisUI, Configuration: Release Any CPU ------
+28>  PowerAnalysisUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\PowerAnalysisUI.dll
+29>------ Build started: Project: StatisticUI, Configuration: Release Any CPU ------
+29>  StatisticUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\StatisticUI.dll
+30>------ Build started: Project: TraceUI, Configuration: Release Any CPU ------
+31>------ Build started: Project: CableUI, Configuration: Release Any CPU ------
+31>  CableUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\CableUI.dll
+30>  TraceUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\TraceUI.dll
+32>------ Build started: Project: DeviceUI, Configuration: Release Any CPU ------
+33>------ Build started: Project: GuiConfigUI, Configuration: Release Any CPU ------
+33>  GuiConfigUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\GuiConfigUI.dll
+32>  DeviceUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\DeviceUI.dll
+34>------ Build started: Project: SwitchUI, Configuration: Release Any CPU ------
+34>  SwitchUI -> C:\Source\ssPragmaSmart\PLINE\bin\release\SwitchUI.dll
+35>------ Build started: Project: MappingServiceProxy, Configuration: Release Any CPU ------
+36>------ Build started: Project: FiltersUI, Configuration: Release Any CPU ------
+35>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PCAD\WFMS\Services\Srv\Mapping\bin\x86\Release\Cgi.Service.Mapping.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+35>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PCAD\WFMS\Services\Srv\Common\bin\x86\Release\Cgi.Ssp.Cad.Services.Common.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+35>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\bin\Release\GeoMapAPI.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+35>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "mdw.api.mng, Version=1.9.2.0, Culture=neutral, PublicKeyToken=ae4be1a8d31f99fa, processorArchitecture=x86", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+35>  MappingServiceProxy -> C:\Source\ssPragmaSmart\PLINE\bin\Release\MappingServiceProxy.dll
+36>  FiltersUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\FiltersUI.dll
+37>------ Build started: Project: SelectionUI, Configuration: Release Any CPU ------
+37>  SelectionUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\SelectionUI.dll
+38>------ Build started: Project: CadUI, Configuration: Release Any CPU ------
+39>------ Build started: Project: CallUI, Configuration: Release Any CPU ------
+39>  CallUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\CallUI.dll
+38>  CadUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\CadUI.dll
+40>------ Build started: Project: SwitchingPlanUI, Configuration: Release Any CPU ------
+40>  SwitchingPlanUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\SwitchingPlanUI.dll
+41>------ Build started: Project: IncidentUI, Configuration: Release Any CPU ------
+42>------ Build started: Project: VehicleUI, Configuration: Release Any CPU ------
+41>  IncidentUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\IncidentUI.dll
+42>  VehicleUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\VehicleUI.dll
+43>------ Build started: Project: EditUI, Configuration: Release Any CPU ------
+43>  EditUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\EditUI.dll
+44>------ Build started: Project: SubstationUI, Configuration: Release Any CPU ------
+45>------ Build started: Project: TieLineUI, Configuration: Release Any CPU ------
+44>  SubstationUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\SubstationUI.dll
+45>  TieLineUI -> C:\Source\ssPragmaSmart\PLINE\bin\release\TieLineUI.dll
+46>------ Build started: Project: LocateUI, Configuration: Release Any CPU ------
+46>  LocateUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\LocateUI.dll
+47>------ Build started: Project: ShapeUI, Configuration: Release Any CPU ------
+48>------ Build started: Project: TemporaryDeviceUI, Configuration: Release Any CPU ------
+47>  ShapeUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\ShapeUI.dll
+48>  TemporaryDeviceUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\TemporaryDeviceUI.dll
+49>------ Build started: Project: EventUI, Configuration: Release Any CPU ------
+50>------ Build started: Project: DamageUI, Configuration: Release Any CPU ------
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\appl.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\importWFMS\Cgi.Service.AllOmsInWfms\bin\Release\Cgi.Service.AllOmsInWfms.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\bin\release\FormUI.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "mdw.api.mng", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\om.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\bin\Release\pline.util.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\srv.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\ui.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\src2\lib\ViewerCore\bin\Release\ViewerCore.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\bin\Release\WindowInterface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>  EventUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\EventUI.dll
+49>  About to update the project version...
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\appl.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\importWFMS\Cgi.Service.AllOmsInWfms\bin\Release\Cgi.Service.AllOmsInWfms.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\bin\release\FormUI.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "mdw.api.mng", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\om.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\bin\Release\pline.util.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\srv.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\ui.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\bin\Release\WindowInterface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>  DamageUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\DamageUI.dll
+50>  About to update the project version...
+51>------ Build started: Project: CircuitUI, Configuration: Release Any CPU ------
+51>  CircuitUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\CircuitUI.dll
+52>------ Build started: Project: PragmaGeo, Configuration: Release Any CPU ------
+52>  PragmaGeo -> C:\Source\ssPragmaSmart\PLINE\bin\Release\PragmaGeo.exe
+========== Build: 52 succeeded, 0 failed, 12 up-to-date, 0 skipped ==========
+
+ 
+ 
+VersionUpdater is forcing a recompilation of the solution... 
+ 
+************************************************************************** 
+Compiling "PragmaGeo"... 
+ 
+ 
+"C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\.\..\..\..\..\src2\exe\PragmaGeo\PragmaGeo.sln" /Build Release /Project "PragmaGeo" /Out "C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\..\msdev_build_All_Release.log" 
+ 
+1>------ Build started: Project: srv.interface, Configuration: Release Any CPU ------
+2>------ Build started: Project: om.interface, Configuration: Release Any CPU ------
+1>  srv.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\srv.interface.dll
+2>  om.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\om.interface.dll
+3>------ Build started: Project: ui.interface, Configuration: Release Any CPU ------
+3>  ui.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\ui.interface.dll
+4>------ Build started: Project: appl.interface, Configuration: Release Any CPU ------
+5>------ Build started: Project: Mapping, Configuration: Release x86 ------
+4>  appl.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\appl.interface.dll
+5>  Mapping -> C:\Source\ssPragmaSmart\PCAD\WFMS\Services\Srv\Mapping\bin\x86\Release\Cgi.Service.Mapping.dll
+5>          1 file(s) copied.
+6>------ Build started: Project: pline.util, Configuration: Release Any CPU ------
+6>  pline.util -> C:\Source\ssPragmaSmart\PLINE\bin\Release\pline.util.dll
+7>------ Build started: Project: Cgi.Ssp.Cad.MiddlewareUtil, Configuration: Release x86 ------
+7>  Cgi.Ssp.Cad.MiddlewareUtil -> C:\Source\ssPragmaSmart\PCAD\WFMS\CAD\Libraries\Cgi.Ssp.Cad.MiddlewareUtil\bin\x86\Release\Cgi.Ssp.Cad.MiddlewareUtil.dll
+7>          1 file(s) copied.
+8>------ Build started: Project: ViewerCore, Configuration: Release Any CPU ------
+9>------ Build started: Project: Coordinates (Coordinates\Coordinates), Configuration: Release Any CPU ------
+9>  Coordinates -> C:\Source\ssPragmaSmart\PLINE\bin\Release\Coordinates.dll
+8>  ViewerCore -> C:\Source\ssPragmaSmart\PLINE\src2\lib\ViewerCore\bin\Release\ViewerCore.dll
+10>------ Build started: Project: Cache, Configuration: Release Any CPU ------
+10>  Cache -> C:\Source\ssPragmaSmart\PLINE\bin\Release\Cache.dll
+11>------ Build started: Project: Colors, Configuration: Release Any CPU ------
+11>  Colors -> C:\Source\ssPragmaSmart\PLINE\bin\Release\Colors.dll
+12>------ Build started: Project: WindowInterface, Configuration: Release Any CPU ------
+13>------ Build started: Project: GDIplusRender, Configuration: Release Any CPU ------
+12>  WindowInterface -> C:\Source\ssPragmaSmart\PLINE\bin\Release\WindowInterface.dll
+13>  GDIplusRender -> C:\Source\ssPragmaSmart\PLINE\bin\Release\GDIplusRender.dll
+14>------ Build started: Project: ZoomLevelManagement, Configuration: Release Any CPU ------
+14>  ZoomLevelManagement -> C:\Source\ssPragmaSmart\PLINE\bin\Release\ZoomLevelManagement.dll
+15>------ Build started: Project: FormUI, Configuration: Release Any CPU ------
+15>  FormUI -> C:\Source\ssPragmaSmart\PLINE\bin\release\FormUI.dll
+16>------ Build started: Project: FileManager, Configuration: Release Any CPU ------
+17>------ Build started: Project: GeoMapAPI, Configuration: Release Any CPU ------
+17>  GeoMapAPI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\GeoMapAPI.dll
+18>------ Build started: Project: FilterManagement, Configuration: Release Any CPU ------
+18>  FilterManagement -> C:\Source\ssPragmaSmart\PLINE\bin\Release\FilterManagement.dll
+16>  Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.17929
+16>  Copyright (c) Microsoft Corporation.  All rights reserved.
+16>  
+16>  No assemblies found matching: FileManager
+16>  Number of assemblies uninstalled = 0 
+16>  Number of failures = 0
+16>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PCAD\WFMS\CAD\Libraries\Cgi.Ssp.Cad.MiddlewareUtil\bin\x86\Release\Cgi.Ssp.Cad.MiddlewareUtil.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+16>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "Cgi.Ssp.CgiLog.Mng, Version=1.9.2.0, Culture=neutral, PublicKeyToken=ae4be1a8d31f99fa, processorArchitecture=x86", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+16>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "mdw.api.mng", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+16>  FileManager -> C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\FTServer.root\FTServer\FileManager\bin\Release\FileManager.dll
+16>          1 file(s) copied.
+19>------ Build started: Project: MapWrapper, Configuration: Release Any CPU ------
+20>------ Build started: Project: BaseLocateUI, Configuration: Release Any CPU ------
+19>  MapWrapper -> C:\Source\ssPragmaSmart\PLINE\bin\Release\MapWrapper.dll
+20>  BaseLocateUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\BaseLocateUI.dll
+21>------ Build started: Project: GraphicalAlterations, Configuration: Release Any CPU ------
+21>  GraphicalAlterations -> C:\Source\ssPragmaSmart\PLINE\src2\lib\MapView\GraphicalAlterations\bin\Release\GraphicalAlterations.dll
+22>------ Build started: Project: AttachmentMonitorControl, Configuration: Release Any CPU ------
+23>------ Build started: Project: CircuitUiCommon, Configuration: Release Any CPU ------
+23>  CircuitUiCommon -> C:\Source\ssPragmaSmart\PLINE\bin\Release\CircuitUiCommon.dll
+24>------ Build started: Project: CustomerUI, Configuration: Release Any CPU ------
+24>  CustomerUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\CustomerUI.dll
+25>------ Build started: Project: MapViewInterface, Configuration: Release Any CPU ------
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(10,17,10,37): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentObjectType'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(12,9,12,12): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentObjectType.Job'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(13,9,13,13): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentObjectType.Crew'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(14,9,14,13): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentObjectType.Mail'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(15,9,15,12): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentObjectType.SDM'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(16,9,16,15): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentObjectType.GpsLog'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(17,9,17,15): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentObjectType.Damage'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(20,18,20,35): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentRequest'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(22,20,22,22): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentRequest.Id'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(23,23,23,27): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentRequest.Text'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(24,37,24,41): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentRequest.Type'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentDetail.cs(125,22,125,31): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentDetail.Thumbnail'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\IAttachmentMonitor.cs(10,22,10,40): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.IAttachmentMonitor'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\IAttachmentMonitor.cs(12,14,12,27): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.IAttachmentMonitor.ShowException(FileManager.Exceptions.FileTransferException)'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewerControl.cs(838,21,838,36): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentViewerControl.ShowAttachments(Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.AttachmentRequest)'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewerViewModel.cs(68,30,68,32): warning CS0168: The variable 'ex' is declared but never used
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(281,28,281,39): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.IconTools.ExtractIcon(string, int, Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ShellIconSize)'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(314,25,314,43): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(350,26,350,35): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.LVM_FIRST'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(351,26,351,39): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.LVM_GETHEADER'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(353,26,353,35): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDM_FIRST'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(354,26,354,37): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDM_GETITEM'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(355,26,355,37): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDM_SETITEM'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(358,37,358,48): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.SendMessage(System.IntPtr, uint, System.IntPtr, System.IntPtr)'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(361,37,361,48): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.SendMessage(System.IntPtr, uint, System.IntPtr, ref Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM)'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(363,28,363,39): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.SetSortIcon(System.Windows.Forms.ListView, int, System.Windows.Forms.SortOrder)'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(317,23,317,29): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(319,25,319,29): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.mask'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(320,24,320,27): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.cxy'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(322,27,322,34): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.pszText'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(323,27,323,30): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.hbm'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(324,24,324,34): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.cchTextMax'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(325,27,325,30): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.fmt'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(326,27,326,33): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.lParam'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(328,24,328,30): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.iImage'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(329,24,329,30): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.iOrder'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(331,25,331,29): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.type'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(332,27,332,35): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.pvFilter'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(334,25,334,30): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.state'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(337,25,337,29): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.Mask'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(339,17,339,23): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.Mask.Format'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(343,25,343,31): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.Format'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(345,17,345,25): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.Format.SortDown'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewHelper.cs(346,17,346,23): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ListViewExtensions.HDITEM.Format.SortUp'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\ObjectChooserForm.cs(13,26,13,43): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ObjectChooserForm'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\ObjectChooserForm.cs(15,16,15,33): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ObjectChooserForm.ObjectChooserForm()'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\ObjectChooserForm.cs(20,20,20,22): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ObjectChooserForm.Id'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\ObjectChooserForm.cs(21,37,21,51): warning CS1591: Missing XML comment for publicly visible type or member 'Cgi.Ssp.Cad.Forms.UserControls.AttachmentMonitor.ObjectChooserForm.AttachmentType'
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewerControl.cs(79,9,79,10): warning CS1587: XML comment is not placed on a valid language element
+22>C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\AttachmentViewerControl.cs(850,9,850,10): warning CS1587: XML comment is not placed on a valid language element
+22>  AttachmentMonitorControl -> C:\Source\ssPragmaSmart\PCAD\WFMS\SDM+\AttachN_Files\AttachmentMonitor\AttachmentMonitorContol\bin\Release\AttachmentMonitorControl.dll
+22>  Running Code Analysis...
+22>MSBUILD : warning : CA1001 : Microsoft.Design : Implement IDisposable on 'AttachmentViewerViewModel' because it creates members of the following IDisposable types: 'COMFileManager'.
+22>MSBUILD : warning : CA1060 : Microsoft.Design : Because it is a P/Invoke method, 'IconTools.ExtractIconEx(string, int, IntPtr[], IntPtr[], uint)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.
+22>MSBUILD : warning : CA1401 : Microsoft.Interoperability : Change the accessibility of P/Invoke 'IconTools.ExtractIconEx(string, int, IntPtr[], IntPtr[], uint)' so that it is no longer visible from outside its assembly.
+22>MSBUILD : warning : CA2101 : Microsoft.Globalization : To reduce security risk, marshal parameter 'libName' as Unicode, by setting DllImport.CharSet to CharSet.Unicode, or by explicitly marshaling the parameter as UnmanagedType.LPWStr. If you need to marshal this string as ANSI or system-dependent, specify MarshalAs explicitly, and set BestFitMapping=false; for added security, also set ThrowOnUnmappableChar=true.
+22>MSBUILD : warning : CA1060 : Microsoft.Design : Because it is a P/Invoke method, 'IconTools.SHGetFileInfo(string, uint, ref IconTools.SHFILEINFO, uint, ShellIconSize)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.
+22>MSBUILD : warning : CA2101 : Microsoft.Globalization : To reduce security risk, marshal parameter 'pszPath' as Unicode, by setting DllImport.CharSet to CharSet.Unicode, or by explicitly marshaling the parameter as UnmanagedType.LPWStr. If you need to marshal this string as ANSI or system-dependent, specify MarshalAs explicitly, and set BestFitMapping=false; for added security, also set ThrowOnUnmappableChar=true.
+22>MSBUILD : warning : CA1060 : Microsoft.Design : Because it is a P/Invoke method, 'ListViewExtensions.SendMessage(IntPtr, uint, IntPtr, ref ListViewExtensions.HDITEM)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.
+22>MSBUILD : warning : CA1401 : Microsoft.Interoperability : Change the accessibility of P/Invoke 'ListViewExtensions.SendMessage(IntPtr, uint, IntPtr, ref ListViewExtensions.HDITEM)' so that it is no longer visible from outside its assembly.
+22>MSBUILD : warning : CA1060 : Microsoft.Design : Because it is a P/Invoke method, 'ListViewExtensions.SendMessage(IntPtr, uint, IntPtr, IntPtr)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.
+22>MSBUILD : warning : CA1401 : Microsoft.Interoperability : Change the accessibility of P/Invoke 'ListViewExtensions.SendMessage(IntPtr, uint, IntPtr, IntPtr)' so that it is no longer visible from outside its assembly.
+22>MSBUILD : warning : CA2111 : Microsoft.Security : Make 'ListViewExtensions.HDITEM.hbm' private.
+22>MSBUILD : warning : CA2111 : Microsoft.Security : Make 'ListViewExtensions.HDITEM.lParam' private.
+22>MSBUILD : warning : CA2111 : Microsoft.Security : Make 'ListViewExtensions.HDITEM.pvFilter' private.
+22>  Code Analysis Complete -- 0 error(s), 13 warning(s)
+22>          1 file(s) copied.
+22>          1 file(s) copied.
+22>          1 file(s) copied.
+25>  MapViewInterface -> C:\Source\ssPragmaSmart\PLINE\bin\Release\MapViewInterface.dll
+26>------ Build started: Project: LandmarkUI, Configuration: Release Any CPU ------
+26>  LandmarkUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\LandmarkUI.dll
+27>------ Build started: Project: NoteUI, Configuration: Release Any CPU ------
+27>  NoteUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\NoteUI.dll
+28>------ Build started: Project: PowerAnalysisUI, Configuration: Release Any CPU ------
+28>  PowerAnalysisUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\PowerAnalysisUI.dll
+29>------ Build started: Project: StatisticUI, Configuration: Release Any CPU ------
+29>  StatisticUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\StatisticUI.dll
+30>------ Build started: Project: TraceUI, Configuration: Release Any CPU ------
+31>------ Build started: Project: CableUI, Configuration: Release Any CPU ------
+31>  CableUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\CableUI.dll
+30>  TraceUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\TraceUI.dll
+32>------ Build started: Project: DeviceUI, Configuration: Release Any CPU ------
+32>  DeviceUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\DeviceUI.dll
+33>------ Build started: Project: GuiConfigUI, Configuration: Release Any CPU ------
+33>  GuiConfigUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\GuiConfigUI.dll
+34>------ Build started: Project: SwitchUI, Configuration: Release Any CPU ------
+34>  SwitchUI -> C:\Source\ssPragmaSmart\PLINE\bin\release\SwitchUI.dll
+35>------ Build started: Project: MappingServiceProxy, Configuration: Release Any CPU ------
+36>------ Build started: Project: FiltersUI, Configuration: Release Any CPU ------
+35>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PCAD\WFMS\Services\Srv\Mapping\bin\x86\Release\Cgi.Service.Mapping.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+35>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PCAD\WFMS\Services\Srv\Common\bin\x86\Release\Cgi.Ssp.Cad.Services.Common.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+35>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\bin\Release\GeoMapAPI.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+35>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "mdw.api.mng, Version=1.9.2.0, Culture=neutral, PublicKeyToken=ae4be1a8d31f99fa, processorArchitecture=x86", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+35>  MappingServiceProxy -> C:\Source\ssPragmaSmart\PLINE\bin\Release\MappingServiceProxy.dll
+36>  FiltersUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\FiltersUI.dll
+37>------ Build started: Project: SelectionUI, Configuration: Release Any CPU ------
+37>  SelectionUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\SelectionUI.dll
+38>------ Build started: Project: CadUI, Configuration: Release Any CPU ------
+39>------ Build started: Project: CallUI, Configuration: Release Any CPU ------
+39>  CallUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\CallUI.dll
+38>  CadUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\CadUI.dll
+40>------ Build started: Project: SwitchingPlanUI, Configuration: Release Any CPU ------
+40>  SwitchingPlanUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\SwitchingPlanUI.dll
+41>------ Build started: Project: IncidentUI, Configuration: Release Any CPU ------
+42>------ Build started: Project: VehicleUI, Configuration: Release Any CPU ------
+41>  IncidentUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\IncidentUI.dll
+42>  VehicleUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\VehicleUI.dll
+43>------ Build started: Project: EditUI, Configuration: Release Any CPU ------
+43>  EditUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\EditUI.dll
+44>------ Build started: Project: SubstationUI, Configuration: Release Any CPU ------
+44>  SubstationUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\SubstationUI.dll
+45>------ Build started: Project: TieLineUI, Configuration: Release Any CPU ------
+45>  TieLineUI -> C:\Source\ssPragmaSmart\PLINE\bin\release\TieLineUI.dll
+46>------ Build started: Project: LocateUI, Configuration: Release Any CPU ------
+47>------ Build started: Project: ShapeUI, Configuration: Release Any CPU ------
+47>  ShapeUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\ShapeUI.dll
+46>  LocateUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\LocateUI.dll
+48>------ Build started: Project: TemporaryDeviceUI, Configuration: Release Any CPU ------
+48>  TemporaryDeviceUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\TemporaryDeviceUI.dll
+49>------ Build started: Project: EventUI, Configuration: Release Any CPU ------
+50>------ Build started: Project: DamageUI, Configuration: Release Any CPU ------
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\appl.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\importWFMS\Cgi.Service.AllOmsInWfms\bin\Release\Cgi.Service.AllOmsInWfms.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\bin\release\FormUI.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "mdw.api.mng", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\om.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\bin\Release\pline.util.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\srv.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\ui.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\src2\lib\ViewerCore\bin\Release\ViewerCore.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\bin\Release\WindowInterface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+49>  EventUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\EventUI.dll
+49>  About to update the project version...
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\appl.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\importWFMS\Cgi.Service.AllOmsInWfms\bin\Release\Cgi.Service.AllOmsInWfms.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\bin\release\FormUI.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "mdw.api.mng", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\om.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\bin\Release\pline.util.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\srv.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\ui.interface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Source\ssPragmaSmart\PLINE\bin\Release\WindowInterface.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+50>  DamageUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\DamageUI.dll
+50>  About to update the project version...
+51>------ Build started: Project: CircuitUI, Configuration: Release Any CPU ------
+51>  CircuitUI -> C:\Source\ssPragmaSmart\PLINE\bin\Release\CircuitUI.dll
+52>------ Build started: Project: PragmaGeo, Configuration: Release Any CPU ------
+52>  PragmaGeo -> C:\Source\ssPragmaSmart\PLINE\bin\Release\PragmaGeo.exe
+========== Build: 52 succeeded, 0 failed, 12 up-to-date, 0 skipped ==========
+
+ 
+ 
+ 
+************************************************************************** 
+Compiling "ObjectManager"... 
+ 
+ 
+"C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\.\..\..\..\..\src2\exe\ObjectManager\ObjectManager.sln" /Build Release /Project "ObjectManager" /Out "C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\..\msdev_build_All_Release.log" 
+ 
+1>------ Build started: Project: Lib PragmaOracle, Configuration: Release Win32 ------
+1>  PragmaOracle.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\lib\PragmaOracle\Release\PragmaOracle.lib
+2>------ Build started: Project: Coordinates, Configuration: Release Win32 ------
+2>  Coordinates.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\Coordinates\Release\Coordinates.lib
+3>------ Build started: Project: srv.interface, Configuration: Release Any CPU ------
+3>  srv.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\srv.interface.dll
+4>------ Build started: Project: TempEditGeometry, Configuration: Release Win32 ------
+4>  TempEditGeometry.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\TempEditGeometry\Release\TempEditGeometry.lib
+5>------ Build started: Project: om.interface, Configuration: Release Any CPU ------
+6>------ Build started: Project: EnvironmentOms, Configuration: Release Win32 ------
+5>  om.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\om.interface.dll
+6>  EnvironmentOms.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\dll\environment\EnvironmentOms\..\..\..\..\bin\Release\EnvironmentOms.dll
+========== Build: 6 succeeded, 0 failed, 26 up-to-date, 0 skipped ==========
+
+ 
+ 
+ 
+************************************************************************** 
+Compiling "MapGen"... 
+ 
+ 
+"C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\.\..\..\..\..\src2\exe\MapGen\MapGen.sln" /Build Release /Project "MapGen" /Out "C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\..\msdev_build_All_Release.log" 
+ 
+1>------ Build started: Project: Lib PragmaOracle, Configuration: Release Win32 ------
+2>------ Build started: Project: Lib Viewer, Configuration: Release Win32 ------
+1>  PragmaOracle.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\lib\PragmaOracle\Release\PragmaOracle.lib
+2>  Viewer.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\Viewer\Release\Lib Viewer.lib
+3>------ Build started: Project: Coordinates, Configuration: Release Win32 ------
+3>  Coordinates.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\Coordinates\Release\Coordinates.lib
+4>------ Build started: Project: Lib MapGenUtil, Configuration: Release Win32 ------
+5>------ Build started: Project: EnvironmentOms, Configuration: Release Win32 ------
+4>  MapGenUtil.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\MapGenUtil\Release\MapGenUtil.lib
+5>  EnvironmentOms.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\dll\environment\EnvironmentOms\..\..\..\..\bin\Release\EnvironmentOms.dll
+========== Build: 5 succeeded, 0 failed, 7 up-to-date, 0 skipped ==========
+
+ 
+ 
+ 
+************************************************************************** 
+Compiling "LandMapGen"... 
+ 
+ 
+"C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\.\..\..\..\..\src2\exe\LandMapGen\LandMapGen.sln" /Build Release /Project "LandMapGen" /Out "C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\..\msdev_build_All_Release.log" 
+ 
+1>------ Build started: Project: srv.interface, Configuration: Release Any CPU ------
+2>------ Build started: Project: Lib PragmaOracle, Configuration: Release Win32 ------
+1>  srv.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\srv.interface.dll
+2>  PragmaOracle.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\lib\PragmaOracle\Release\PragmaOracle.lib
+3>------ Build started: Project: ui.interface, Configuration: Release Any CPU ------
+3>  ui.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\ui.interface.dll
+4>------ Build started: Project: Coordinates, Configuration: Release Win32 ------
+4>  Coordinates.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\Coordinates\Release\Coordinates.lib
+5>------ Build started: Project: appl.interface, Configuration: Release Any CPU ------
+6>------ Build started: Project: Lib MapGenUtil, Configuration: Release Win32 ------
+5>  appl.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\appl.interface.dll
+6>  MapGenUtil.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\MapGenUtil\Release\MapGenUtil.lib
+7>------ Build started: Project: Lib Viewer, Configuration: Release Win32 ------
+7>  Viewer.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\Viewer\Release\Lib Viewer.lib
+8>------ Build started: Project: Lib UtilsCpp, Configuration: Release Win32 ------
+8>  UtilsCpp.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\UtilsCpp\Release\utilsCpp.lib
+9>------ Build started: Project: EnvironmentOms, Configuration: Release Win32 ------
+9>  EnvironmentOms.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\dll\environment\EnvironmentOms\..\..\..\..\bin\Release\EnvironmentOms.dll
+========== Build: 9 succeeded, 0 failed, 3 up-to-date, 0 skipped ==========
+
+ 
+ 
+ 
+************************************************************************** 
+Compiling "ViewerServer"... 
+ 
+ 
+"C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\.\..\..\..\..\src2\exe\ViewerServer\ViewerServer.sln" /Build Release /Project "ViewerServer" /Out "C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\..\msdev_build_All_Release.log" 
+ 
+1>------ Build started: Project: Coordinates, Configuration: Release Win32 ------
+2>------ Build started: Project: Lib Viewer, Configuration: Release Win32 ------
+1>  Coordinates.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\Coordinates\Release\Coordinates.lib
+2>  Viewer.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\Viewer\Release\Lib Viewer.lib
+3>------ Build started: Project: Lib MapGenUtil, Configuration: Release Win32 ------
+3>  MapGenUtil.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\MapGenUtil\Release\MapGenUtil.lib
+4>------ Build started: Project: Lib PragmaOracle, Configuration: Release Win32 ------
+4>  PragmaOracle.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\lib\PragmaOracle\Release\PragmaOracle.lib
+5>------ Build started: Project: Lib UtilsCpp, Configuration: Release Win32 ------
+5>  UtilsCpp.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\UtilsCpp\Release\utilsCpp.lib
+========== Build: 5 succeeded, 0 failed, 7 up-to-date, 0 skipped ==========
+
+ 
+ 
+ 
+************************************************************************** 
+Compiling "SrvCallSender"... 
+ 
+ 
+"C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\.\..\..\..\..\src2\exe\SrvCallSender\SrvCallSender.sln" /Build Release /Project "SrvCallSender" /Out "C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\..\msdev_build_All_Release.log" 
+ 
+1>------ Build started: Project: Lib PragmaOracle, Configuration: Release Win32 ------
+1>  PragmaOracle.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\lib\PragmaOracle\Release\PragmaOracle.lib
+2>------ Build started: Project: EnvironmentOms, Configuration: Release Win32 ------
+2>  EnvironmentOms.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\dll\environment\EnvironmentOms\..\..\..\..\bin\Release\EnvironmentOms.dll
+========== Build: 2 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========
+
+ 
+ 
+ 
+************************************************************************** 
+Compiling "DbNotif"... 
+ 
+ 
+"C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\.\..\..\..\..\src2\exe\DbNotif\DbNotif.sln" /Build Release /Project "DbNotif" /Out "C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\..\msdev_build_All_Release.log" 
+ 
+1>------ Build started: Project: Lib PragmaOracle, Configuration: Release Win32 ------
+1>  PragmaOracle.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\lib\PragmaOracle\Release\PragmaOracle.lib
+2>------ Build started: Project: srv.interface, Configuration: Release Any CPU ------
+3>------ Build started: Project: EnvironmentOms, Configuration: Release Win32 ------
+2>  srv.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\srv.interface.dll
+3>  EnvironmentOms.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\dll\environment\EnvironmentOms\..\..\..\..\bin\Release\EnvironmentOms.dll
+========== Build: 3 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+
+ 
+ 
+ 
+************************************************************************** 
+Compiling "DbNotifProxy"... 
+ 
+ 
+"C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\.\..\..\..\..\src2\exe\DbNotif\DbNotif.sln" /Build Release /Project "DbNotifProxy" /Out "C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\..\msdev_build_All_Release.log" 
+ 
+========== Build: 0 succeeded, 0 failed, 3 up-to-date, 0 skipped ==========
+
+ 
+ 
+ 
+************************************************************************** 
+Compiling "Filters"... 
+ 
+ 
+"C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\.\..\..\..\..\src2\exe\Filters\Filters.sln" /Build Release /Project "Filters" /Out "C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\..\msdev_build_All_Release.log" 
+ 
+1>------ Build started: Project: Lib PragmaOracle, Configuration: Release Win32 ------
+1>  PragmaOracle.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\lib\PragmaOracle\Release\PragmaOracle.lib
+2>------ Build started: Project: srv.interface, Configuration: Release Any CPU ------
+3>------ Build started: Project: EnvironmentOms, Configuration: Release Win32 ------
+2>  srv.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\srv.interface.dll
+3>  EnvironmentOms.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\dll\environment\EnvironmentOms\..\..\..\..\bin\Release\EnvironmentOms.dll
+========== Build: 3 succeeded, 0 failed, 5 up-to-date, 0 skipped ==========
+
+ 
+ 
+ 
+************************************************************************** 
+Compiling "CntMapGen"... 
+ 
+ 
+"C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\.\..\..\..\..\src2\exe\CntMapGen\CntMapGen.sln" /Build Release /Project "CntMapGen" /Out "C:\Source\ssPragmaSmart\PLINE\DevTools\scripts\build\functions\..\msdev_build_All_Release.log" 
+ 
+1>------ Build started: Project: srv.interface, Configuration: Release Any CPU ------
+2>------ Build started: Project: Lib PragmaOracle, Configuration: Release Win32 ------
+2>  PragmaOracle.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\lib\PragmaOracle\Release\PragmaOracle.lib
+1>  srv.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\srv.interface.dll
+3>------ Build started: Project: Coordinates, Configuration: Release Win32 ------
+3>  Coordinates.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\Coordinates\Release\Coordinates.lib
+4>------ Build started: Project: ui.interface, Configuration: Release Any CPU ------
+4>  ui.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\ui.interface.dll
+5>------ Build started: Project: TempEditGeometry, Configuration: Release Win32 ------
+6>------ Build started: Project: appl.interface, Configuration: Release Any CPU ------
+5>  TempEditGeometry.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\TempEditGeometry\Release\TempEditGeometry.lib
+6>  appl.interface -> C:\Source\ssPragmaSmart\PLINE\Services\bin\Release\appl.interface.dll
+7>------ Build started: Project: Lib MapGenUtil, Configuration: Release Win32 ------
+7>  MapGenUtil.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\MapGenUtil\Release\MapGenUtil.lib
+8>------ Build started: Project: Lib Viewer, Configuration: Release Win32 ------
+8>  Viewer.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src2\lib\Viewer\Release\Lib Viewer.lib
+9>------ Build started: Project: Lib CntMapGenCore, Configuration: Release Win32 ------
+10>------ Build started: Project: EnvironmentOms, Configuration: Release Win32 ------
+9>  StdAfx.cpp
+10>  EnvironmentOms.vcxproj -> C:\Source\ssPragmaSmart\PLINE\src\dll\environment\EnvironmentOms\..\..\..\..\bin\Release\EnvironmentOms.dll
+9>C:\Program Files\Microsoft Visual Studio 11.0\VC\include\list(1440): error C3859: virtual memory range for PCH exceeded; please recompile with a command line option of '-Zm129' or greater
+9>C:\Program Files\Microsoft Visual Studio 11.0\VC\include\list(1440): fatal error C1076: compiler limit : internal heap limit reached; use /Zm to specify a higher limit
+========== Build: 9 succeeded, 1 failed, 5 up-to-date, 0 skipped ==========
+
+ 
+ 

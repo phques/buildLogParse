@@ -1,0 +1,30 @@
+1>------ Build started: Project: Lib Apse Xdr, Configuration: Release Win32 ------
+2>------ Build started: Project: Lib Broker Gen DB, Configuration: Release Win32 ------
+3>------ Build started: Project: Lib Database Manager, Configuration: Release Win32 ------
+4>------ Build started: Project: Lib Deamon, Configuration: Release Win32 ------
+1>  xdr.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\lib\Apse\xdr\Release\libxdr.lib
+2>  brkdb.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\lib\brk\brk\ReleaseDb\libbrkgendb.lib
+3>  gdbm.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\lib\Gdbm\Release\gdbm.lib
+4>  deamon.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\lib\Deamon\Release\deamon.lib
+5>------ Build started: Project: Broker SDB, Configuration: Release Win32 ------
+5>  Performing Custom Build Tools
+5>  .
+5>  E:\tfs-current\ssPragmaSmart\PLINE\src\exe\Sdb\cnt\bsc.pc ReleaseSdu\bsc.c C:\PROGRA~1\MICROS~3.0\VC\include C:\PROGRA~1\WI3CF2~1\8.0\Include\um
+5>  Using config="E:\TFS-CU~1\SSPRAG~1\PLINE\src\ProC\mkproc.cfg"
+5>  .
+5>  infoBD - phquesne/kwez@OMS.WORLD
+5>  PROC_COMMAND=C:\ora12\client\product\12.1.0\BIN\proc.exe  iname=E:\tfs-current\ssPragmaSmart\PLINE\src\exe\Sdb\cnt\bsc.pc oname=ReleaseSdu\bsc.c config="E:\TFS-CU~1\SSPRAG~1\PLINE\src\ProC\mkproc.cfg" USERID=phquesne/kwez@OMS.WORLD
+5>  
+5>  Pro*C/C++: Release 12.1.0.2.0 - Production on Tue May 5 15:58:35 2015
+5>  
+5>  Copyright (c) 1982, 2014, Oracle and/or its affiliates.  All rights reserved.
+5>  
+5>  System default option values taken from: c:\ora12\client\product\12.1.0\precomp\admin\pcscfg.cfg
+5>  
+5>  .
+5>  -------------------------------
+5>  bsc.c
+5>  VersionUpdater.exe: IS_PRAGMASMART_DEV=T => no update.
+5>  brk_sdb_update.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\exe\Sdb\..\..\..\bin\Release\sdu.exe
+========== Build: 5 succeeded, 0 failed, 12 up-to-date, 0 skipped ==========
+

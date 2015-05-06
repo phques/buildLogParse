@@ -1,0 +1,67 @@
+1>------ Build started: Project: Lib PragmaOracle, Configuration: Debug Win32 ------
+2>------ Build started: Project: Lib ScadaOms ObjectMgr, Configuration: Debug Win32 ------
+3>------ Build started: Project: Lib ScadaOms ObjectMgr Calls, Configuration: Debug Win32 ------
+4>------ Build started: Project: Lib cclib, Configuration: Debug Win32 ------
+2>  objectMgr.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\lib\ScadaOms\objectMgr\Debug\ObjectMgr.lib
+1>  PragmaOracle.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\lib\PragmaOracle\Debug\PragmaOracle.lib
+5>------ Build started: Project: Lib Database Manager, Configuration: Debug Win32 ------
+3>  objectMgrScalls.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\lib\ScadaOms\Scalls\ObjectMgr\Debug\objectMgrScalls.lib
+6>------ Build started: Project: Lib Database User Manager Gen, Configuration: Debug Win32 ------
+5>  gdbm.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\lib\Gdbm\Debug\gdbm.lib
+6>  dumgen.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\lib\Dum\gen\Debug\dumgen.lib
+7>------ Build started: Project: Lib M3i Console, Configuration: Debug Win32 ------
+8>------ Build started: Project: EnvironmentOms, Configuration: Debug Win32 ------
+4>  cclib.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\lib\cclib\Debug\cclib.lib
+7>  btree.c
+7>  coreconfig.c
+8>  EnvironmentOms.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\dll\environment\EnvironmentOms\..\..\..\..\bin\Debug\EnvironmentOms.dll
+7>  cpffdc.c
+7>  cpfflt.c
+7>  gen_dcm.c
+7>  geo_cvt.c
+7>  ini_che.c
+7>  list_dyn.c
+7>  lst_utl.c
+7>  m3i_asc.c
+7>  m3i_clin.c
+7>  m3i_ctx.c
+7>  m3i_erh.c
+7>  m3i_ini.c
+7>  m3idda.c
+7>  m3idebug.c
+7>  m3idgm.c
+7>  m3idrs.c
+7>  m3ierr.c
+7>  m3imemory.c
+7>  Generating Code...
+7>  Compiling...
+7>  m3istr.c
+7>  m3itime.c
+7>  m3itiming.c
+7>  m3iusr.c
+7>  ops_htb.c
+7>  scanstr.c
+7>  Generating Code...
+7>  m3ic.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\lib\M3i\Debug\m3ic.lib
+9>------ Build started: Project: App ObjectMgr, Configuration: Debug Win32 ------
+9>  stdafx.cpp
+9>  scadaOmsTranslationService.cpp
+9>  scadaOmsMiscCfgService.cpp
+9>  scadaOmsAttribServices.cpp
+9>  phasesService.cpp
+9>  params.cpp
+9>  objectMgr.cpp
+9>  manualOverrideService.cpp
+9>  m3iUtil.cpp
+9>  IniSection.cpp
+9>  iniParamService.cpp
+9>  eventConditionService.cpp
+9>  eqpStatusService.cpp
+9>  eqpProcScadaOutService.cpp
+9>  devIdService.cpp
+9>  checkEqpStnNoService.cpp
+9>  Generating Code...
+9>checkEqpStnNoService.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+9>  applobjectMgr.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\exe\ScadaOms\ObjectMgr\..\..\..\..\bin\Debug\Iccp.ObjectMgr.exe
+========== Build: 9 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

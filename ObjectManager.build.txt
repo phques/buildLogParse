@@ -1,0 +1,26 @@
+1>------ Build started: Project: Coordinates, Configuration: Release Win32 ------
+2>------ Build started: Project: Lib PragmaOracle, Configuration: Release Win32 ------
+1>  Coordinates.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src2\lib\Coordinates\Release\Coordinates.lib
+2>  PragmaOracle.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\lib\PragmaOracle\Release\PragmaOracle.lib
+3>------ Build started: Project: polygon, Configuration: Release Win32 ------
+4>------ Build started: Project: srv.interface, Configuration: Release Any CPU ------
+5>------ Build started: Project: tempEdits, Configuration: Release Win32 ------
+6>------ Build started: Project: TempEditGeometry, Configuration: Release Win32 ------
+6>  TempEditGeometry.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src2\lib\TempEditGeometry\Release\TempEditGeometry.lib
+4>  srv.interface -> E:\tfs-current\ssPragmaSmart\PLINE\Services\bin\Release\srv.interface.dll
+3>  polygon.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src2\exe\ObjectManager\Release\polygon.lib
+5>  tempEdits.cpp
+7>------ Build started: Project: om.interface, Configuration: Release Any CPU ------
+7>  om.interface -> E:\tfs-current\ssPragmaSmart\PLINE\Services\bin\Release\om.interface.dll
+8>------ Build started: Project: EnvironmentOms, Configuration: Release Win32 ------
+8>  EnvironmentOms.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src\dll\environment\EnvironmentOms\..\..\..\..\bin\Release\EnvironmentOms.dll
+5>  tempEdits.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src2\exe\ObjectManager\Release\tempEdits.lib
+9>------ Build started: Project: ObjectManager, Configuration: Release Win32 ------
+9>  VersionUpdater.exe: IS_PRAGMASMART_DEV=T => no update.
+9>LINK : warning LNK4098: defaultlib 'mfc110.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+9>LINK : warning LNK4098: defaultlib 'mfcs110.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+9>  Generating code
+9>  Finished generating code
+9>  ObjectManager.vcxproj -> E:\tfs-current\ssPragmaSmart\PLINE\src2\exe\ObjectManager\..\..\..\bin\Release\ObjectManager.exe
+========== Build: 9 succeeded, 0 failed, 24 up-to-date, 0 skipped ==========
+
