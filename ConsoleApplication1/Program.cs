@@ -7,30 +7,6 @@ using System.Text.RegularExpressions;
 
 namespace ConsoleApplication1
 {
-    public class Project
-    {
-        string projectLine;     // "1>------ Build started: Project: srv.interface, Configuration: Release Any CPU ------"
-        string buildNumberStr;  // ie "1>", "2>" ...
-        List<string> lines;
-
-        static Regex projectBuildRE = new Regex(@"^([0-9]+>)------ Build started:");
-
-        public Project()
-        {
-        }
-
-        static public bool IsNewProjectBuild(string line, out string buildNumberStr)
-        {
-            buildNumberStr = "";
-
-            var match = projectBuildRE.Match(line);
-            if (match.Success)
-                buildNumberStr = match.Groups[1].ToString();
-
-            return match.Success;
-        }
-    }
-
     class Program
     {
         static void Main(string[] args)
@@ -50,11 +26,13 @@ namespace ConsoleApplication1
                 {
                     //Console.WriteLine(line);
 
-                    string buildNbrStr;
-                    if (Project.IsNewProjectBuild(line, out buildNbrStr))
+                    Project project = Project.IsNewProjectBuild(line);
+                    if (project != null)
                     {
+                        string msg = String.Format("found start of project \"{0}\", build tag \"{1}\"",
+                                                    project.Name, project.BuildNumberTag);
                         Console.WriteLine(line);
-                        Console.WriteLine("found start of project build: " + buildNbrStr);
+                        Console.WriteLine(msg);
                         Console.WriteLine();
                     }
                 }
