@@ -7,6 +7,7 @@ namespace LogParser
     public class Build
     {
         List<string> lines;
+        List<Project> projects;
         string nbrSucceeded;
         string nbrFailed;
         string nbrUpToDate;
@@ -17,6 +18,12 @@ namespace LogParser
 
         public Build()
         {
+            projects = new List<Project>();
+        }
+
+        public void AddProject(Project project)
+        {
+            projects.Add(project);
         }
 
         public bool IsEndOfBuild(string line)
@@ -28,6 +35,8 @@ namespace LogParser
                 nbrFailed = match.Groups[2].ToString();
                 nbrUpToDate = match.Groups[3].ToString();
                 nbrSkipped = match.Groups[4].ToString();
+
+                lines.Add(line);
 
                 //## debug
                 Console.WriteLine(line);
