@@ -17,6 +17,19 @@ namespace LogParser
             this.filename = filename;
         }
 
+        /*
+         * if isInBuild
+         *    if endOfBuild
+         *       isInBuild = false
+         *       create new build
+         *    elif new start project build
+         *       add new project to build
+         *    elif tagged build line ("99..>")
+         *       add to corresponding project
+         *  else 
+         *     // !in build
+         *     add line to build
+         */
         public void Parse()
         {
             try
